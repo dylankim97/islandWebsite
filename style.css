@@ -5,11 +5,14 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 body
 {
     min-height: 100vh;
+    overflow-x: hidden;
     background: linear-gradient(#2b1055, #7597de);
+
 }
 header
 {
@@ -72,6 +75,7 @@ section
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 section img
@@ -113,7 +117,7 @@ section::before
     white-space: nowrap;
     font-size: 5.5vw;
     z-index: 9;
-
+    right: -380px;
 }
 
 #btn
